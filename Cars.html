@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ar" lang="ar" dir="rtl">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>السيارات والحجز - مكتب الأمان</title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script type="text/javascript" src="myFunctions.js"></script>
+</head>
+<body>
+  <div class="site-header">
+    <div class="container header-inner">
+      <div class="brand"><span class="brand-mark">أ</span><div><h1>مكتب الأمان لتأجير السيارات</h1><p>رحلتك تبدأ معنا</p></div></div>
+      <ul class="main-nav">
+        <li><a href="index.html">الرئيسية</a></li>
+        <li><a href="AboutUs.html">من نحن</a></li>
+        <li><a class="active" href="Cars.html">السيارات والحجز</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="page-banner"><div class="container"><h2>السيارات المتاحة</h2><p>اختر سيارة أو أكثر، ثم تابع لإدخال بيانات طلبك</p></div></div>
+
+  <div class="container content-section">
+    <div class="table-wrap">
+      <table class="cars-table">
+        <thead>
+          <tr><th>الصورة</th><th>رمز السيارة</th><th>الطراز</th><th>سنة الصنع</th><th>السعر اليومي (ل.س)</th><th>التفاصيل</th><th>اختيار</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><img class="car-thumb" src="images/car1.svg" alt="تويوتا كورولا" /></td>
+            <td>CR-001</td><td>تويوتا كورولا</td><td>2023</td><td class="price">250000</td>
+            <td><label class="detail-label"><input type="checkbox" class="detail-toggle" id="detail1" /> عرض التفاصيل</label></td>
+            <td><input type="checkbox" class="car-select" value="CR-001" /></td>
+          </tr>
+          <tr class="details-row" id="info-detail1"><td colspan="7"><div class="details-box"><strong>مواصفات السيارة:</strong> الوقود: بنزين | ناقل الحركة: أوتوماتيك | المقاعد: 5 | عداد المسافة: 35000 كم | اللون: أبيض</div></td></tr>
+
+          <tr>
+            <td><img class="car-thumb" src="images/car2.svg" alt="كيا سبورتاج" /></td>
+            <td>CR-002</td><td>كيا سبورتاج</td><td>2022</td><td class="price">400000</td>
+            <td><label class="detail-label"><input type="checkbox" class="detail-toggle" id="detail2" /> عرض التفاصيل</label></td>
+            <td><input type="checkbox" class="car-select" value="CR-002" /></td>
+          </tr>
+          <tr class="details-row" id="info-detail2"><td colspan="7"><div class="details-box"><strong>مواصفات السيارة:</strong> الوقود: بنزين | ناقل الحركة: أوتوماتيك | المقاعد: 5 | عداد المسافة: 42000 كم | اللون: رمادي</div></td></tr>
+
+          <tr>
+            <td><img class="car-thumb" src="images/car3.svg" alt="هيونداي إلنترا" /></td>
+            <td>CR-003</td><td>هيونداي إلنترا</td><td>2024</td><td class="price">300000</td>
+            <td><label class="detail-label"><input type="checkbox" class="detail-toggle" id="detail3" /> عرض التفاصيل</label></td>
+            <td><input type="checkbox" class="car-select" value="CR-003" /></td>
+          </tr>
+          <tr class="details-row" id="info-detail3"><td colspan="7"><div class="details-box"><strong>مواصفات السيارة:</strong> الوقود: بنزين | ناقل الحركة: أوتوماتيك | المقاعد: 5 | عداد المسافة: 18000 كم | اللون: أزرق</div></td></tr>
+
+          <tr>
+            <td><img class="car-thumb" src="images/car4.svg" alt="شيفروليه سبارك" /></td>
+            <td>CR-004</td><td>شيفروليه سبارك</td><td>2021</td><td class="price">180000</td>
+            <td><label class="detail-label"><input type="checkbox" class="detail-toggle" id="detail4" /> عرض التفاصيل</label></td>
+            <td><input type="checkbox" class="car-select" value="CR-004" /></td>
+          </tr>
+          <tr class="details-row" id="info-detail4"><td colspan="7"><div class="details-box"><strong>مواصفات السيارة:</strong> الوقود: بنزين | ناقل الحركة: يدوي | المقاعد: 4 | عداد المسافة: 51000 كم | اللون: أحمر</div></td></tr>
+
+          <tr>
+            <td><img class="car-thumb" src="images/car5.svg" alt="نيسان صني" /></td>
+            <td>CR-005</td><td>نيسان صني</td><td>2023</td><td class="price">220000</td>
+            <td><label class="detail-label"><input type="checkbox" class="detail-toggle" id="detail5" /> عرض التفاصيل</label></td>
+            <td><input type="checkbox" class="car-select" value="CR-005" /></td>
+          </tr>
+          <tr class="details-row" id="info-detail5"><td colspan="7"><div class="details-box"><strong>مواصفات السيارة:</strong> الوقود: بنزين | ناقل الحركة: أوتوماتيك | المقاعد: 5 | عداد المسافة: 29000 كم | اللون: فضي</div></td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="selection-bar">
+      <span>حدد السيارات المطلوبة من عمود الاختيار.</span>
+      <button type="button" id="continueButton" class="primary-button">متابعة</button>
+    </div>
+
+    <div id="bookingSection" class="form-panel" style="display:none;">
+      <h2>بيانات طلب الاستئجار</h2>
+      <p class="required-note">الحقول الإلزامية: الرقم الوطني وتاريخ البداية وتاريخ النهاية.</p>
+      <form id="bookingForm" action="#" method="get">
+        <fieldset>
+          <legend>المعلومات الشخصية ومدة الاستئجار</legend>
+          <div class="form-grid">
+            <div class="form-field">
+              <label for="fullName">الاسم الكامل</label>
+              <input type="text" id="fullName" name="fullName" />
+              <span class="field-hint">أحرف عربية فقط، وهو حقل اختياري.</span>
+            </div>
+            <div class="form-field">
+              <label for="nationalId">الرقم الوطني <span class="required">*</span></label>
+              <input type="text" id="nationalId" name="nationalId" maxlength="11" inputmode="numeric" required="required" />
+            </div>
+            <div class="form-field">
+              <label for="startDate">تاريخ البداية <span class="required">*</span></label>
+              <input type="date" id="startDate" name="startDate" required="required" />
+            </div>
+            <div class="form-field">
+              <label for="endDate">تاريخ النهاية <span class="required">*</span></label>
+              <input type="date" id="endDate" name="endDate" required="required" />
+            </div>
+            <div class="form-field">
+              <label for="mobile">رقم الموبايل</label>
+              <input type="tel" id="mobile" name="mobile" maxlength="10" />
+            </div>
+            <div class="form-field">
+              <label for="email">البريد الإلكتروني</label>
+              <input type="email" id="email" name="email" />
+            </div>
+          </div>
+        </fieldset>
+        <div class="form-actions">
+          <button type="submit" class="primary-button">إرسال الطلب</button>
+          <button type="reset" class="secondary-button">مسح البيانات</button>
+        </div>
+      </form>
+      <div id="result" class="result-panel" aria-live="polite"></div>
+    </div>
+  </div>
+
+  <div class="site-footer"><div class="container"><p>مكتب الأمان لتأجير السيارات</p></div></div>
+</body>
+</html>
